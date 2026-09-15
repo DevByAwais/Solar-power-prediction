@@ -1,0 +1,23 @@
+
+Solar Power Plant AC Power Prediction
+
+Feature Set: Set B
+Model: Normal Equation
+
+Features:
+1. Shortwave Radiation
+2. Temperature 2m
+3. Cloud Cover
+4. sin(hour)
+5. cos(hour)
+
+Target:
+AC Power (kW)
+
+Negative predictions are clipped to zero.
+
+Training period:
+15 May 2020 to 10 June 2020
+
+Testing period:
+11 June 2020 to 17 June 2020
